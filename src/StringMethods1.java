@@ -12,7 +12,7 @@ public class StringMethods1 {
         int tamanioTOTAL=tamanioA+tamanioB;
         System.out.println(tamanioTOTAL);
         int alfabeto=A.compareToIgnoreCase(B);
-        if (alfabeto<0){
+        if (alfabeto<=0){
             System.out.println("No");
         }else if (alfabeto>0){
             System.out.println("Yes");
